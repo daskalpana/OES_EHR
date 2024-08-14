@@ -1,6 +1,6 @@
 # Simulations for bias adjustment in Electronic Health Records
 
-This repository contains the code developed to account for outcome misclassification, exposure misclassification, and selection bias in electronic health records (EHRs). The focus of this code is on conducting simulations to understand and adjust for these biases simultaneously via maximum likelihood approaches.
+OES_EHR repository contains the code developed to account for Outcome misclassification, Exposure misclassification, and Selection bias in electronic health records (EHRs). The focus of this code is on conducting simulations to understand and adjust for these biases simultaneously via maximum likelihood approaches.
 
 Usage
 
