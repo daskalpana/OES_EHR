@@ -15,8 +15,8 @@ Contents
 
 - The "cluster_commands.R" file contains basic cluster interface commands that can be useful for beginners.
 
-- The "special cases" folder contains a seperate code file for generating each of the 16 special cases. It also contains another folder called "output", which has all the output tables relating to each case. It also contains the "cases.R" file which lists all 16 possible special case scenarios. Each file generates created a dataset of size 10000, with a 25% validation subset, iterated 1000 times. The exposure prevalence is fixed at 0.30. The disease mechanism is modeled as logit(P(D=1|Z)) = -2 + 0.5 Z, and the selection mechanism as logit(P(S=1|D, Z)) = -0.6 + D + Z. The true misclassification parameters are set to h_1 = g_1 = 0.85, h_4 = g_4 = 0.90, c_1 = c_2 = c_3 = c_4 = 0.90, and b_1 = b_2 = b_3 = b_4 = 0.95.
-
+- The "special cases" folder includes separate code files for generating each of the 16 special cases, as well as a subfolder named "output," which contains all the output tables related to each case. Additionally, the folder includes the "cases.R" file, which outlines all 16 possible special case scenarios. Each file generates a dataset of size 10,000 with a 25% validation subset, iterated 1,000 times. The exposure prevalence is fixed at 0.30. The disease mechanism is modeled as logit(P(D=1|Z)) = -2 + 0.5Z, and the selection mechanism as logit(P(S=1|D, Z)) = -0.6 + D + Z. The true misclassification parameters are set to h_1 = g_1 = 0.85, h_4 = g_4 = 0.90, c_1 = c_2 = c_3 = c_4 = 0.90, and b_1 = b_2 = b_3 = b_4 = 0.95. Additionally, the folder contains plots showing bias and variance across different selection and misclassification profiles.
+  
 - The "plots_across_S.R" file contains the code to plot the empirical bias and empirical variance of the estimates of different cases compared across different selection profiles.
 
 - The "plots_across_D_and_Z.R" file contains the code to plot the empirical bias and empirical variance of the estimates of different cases compared across different misclassification profiles.
